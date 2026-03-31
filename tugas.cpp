@@ -53,3 +53,16 @@ int tampilkanMenu()
     cin >> pilihan;
     return pilihan;
 }
+
+// menampilkan hasil pengecekan
+void tampilkanHasil(bool hasil, string jenis)
+{
+    if (hasil)
+    {
+        cout << "Hasil: " << angkaInput << " adalah bilangan " << jenis << endl;
+    }
+    else
+    {
+        cout << "Hasil: " << angkaInput << " BUKAN bilangan " << jenis << endl;
+    }
+}
