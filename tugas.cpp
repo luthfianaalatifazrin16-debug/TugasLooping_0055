@@ -77,3 +77,7 @@ int main()
         // Pengecekan menggunakan switch case
         switch (pilihan)
         {
+        case 1:
+            inputAngka();
+            tampilkanHasil(cekPrima(angkaInput), "Prima");
+            break;
