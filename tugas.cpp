@@ -19,3 +19,8 @@ bool cekPrima(int n)
     }
     return true;
 }
+
+// Function bool untuk mengecek bilangan fibonacci menggunakan while loop
+bool cekFibonacci(int n)
+{
+}
