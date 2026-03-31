@@ -90,3 +90,8 @@ int main()
             return 0; // Menghentikan program
         default:
             cout << "Pilihan tidak valid. Silakan coba lagi." << endl;
+            break;
+        }
+    }
+    return 0;
+}
