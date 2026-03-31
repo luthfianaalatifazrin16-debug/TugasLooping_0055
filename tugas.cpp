@@ -71,3 +71,5 @@ int main()
 {
     // Program terus berjalan menggunakan while loop
     while (true)
+    {
+        tampilkanMenu();
