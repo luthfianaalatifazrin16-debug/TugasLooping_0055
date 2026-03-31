@@ -66,3 +66,8 @@ void tampilkanHasil(bool hasil, string jenis)
         cout << "Hasil: " << angkaInput << " BUKAN bilangan " << jenis << endl;
     }
 }
+
+int main()
+{
+    // Program terus berjalan menggunakan while loop
+    while (true)
