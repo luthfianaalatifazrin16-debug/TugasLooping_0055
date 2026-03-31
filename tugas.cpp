@@ -73,3 +73,7 @@ int main()
     while (true)
     {
         tampilkanMenu();
+
+        // Pengecekan menggunakan switch case
+        switch (pilihan)
+        {
