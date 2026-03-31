@@ -88,3 +88,5 @@ int main()
         case 0:
             cout << "Keluar dari program. Terima kasih!" << endl;
             return 0; // Menghentikan program
+        default:
+            cout << "Pilihan tidak valid. Silakan coba lagi." << endl;
