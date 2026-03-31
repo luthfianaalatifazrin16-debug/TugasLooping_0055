@@ -81,3 +81,7 @@ int main()
             inputAngka();
             tampilkanHasil(cekPrima(angkaInput), "Prima");
             break;
+        case 2:
+            inputAngka();
+            tampilkanHasil(cekFibonacci(angkaInput), "Fibonacci");
+            break;
